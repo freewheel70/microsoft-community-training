@@ -1,17 +1,19 @@
 ---
-title: Create and Publish your Mobile App
+title: Create and Publish your Mobile App (GA)
 original-url: https://docs.microsoftcommunitytraining.com/docs/create-publish-mobile-app
 author: v-nmadireddi
 ms.author: v-nmadireddi
 description: In this article, we will learn about how to create and publish the Mobile App (available only for Android platform) for your training portal.
 ms.service: azure
+ms.topic: how-to
+ms.date: 02/05/2026
 ---
 > [!IMPORTANT]  
 > Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: https://aka.ms/cthelpdesk
-# Create and Publish your Mobile App
-
+# Create and Publish your Mobile App (GA)
+ 
 In this article, we will learn about how to create and publish the Mobile App (available only for Android platform) for your training portal.  
-
+ 
 ![Mobile view](../../media/Mobileview2.0.jpeg)
 
 ### Pre-requisites for mobile application
@@ -112,7 +114,7 @@ As you enabled the PWA, in the backend there will be a [service worker](https://
 
 2. In the text box on homepage of PWA builder, enter your instance URL (eg: contosolearning.azurewebsites.net) and click ‘Start’. In the backend PWABuilder will verify if you have a service worker and manifest available for your PWA.
 
-    ![Fill the instance URL](../../media/PWAbuilder1.png)
+    ![Enter instance URL in PWA Builder](../../media/PWAbuilder1.png)
 
 3. Click on **Package for stores**.
 
@@ -132,12 +134,12 @@ As you enabled the PWA, in the backend there will be a [service worker](https://
 
     4. Click on “All Settings” and increment your App version and App Version Code by 1 from the version of your existing app, if creating the app for first time do not increment the value.
 
-      ![Fill the instance URL](../../media/PWAbuilder5.png)
+      ![Review Android app package options](../../media/PWAbuilder5.png)
 
 
     5. Scroll to “Signing Key”, choose ‘Use Mine’ and upload the key store file that you received from MCT support team.
 
-       ![Fill the instance URL](../../media/PWAbuilder7.png)
+       ![Upload signing key for Android package](../../media/PWAbuilder7.png)
 
 
     6. Download your application bundle.
